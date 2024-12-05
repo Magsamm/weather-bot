@@ -1,0 +1,23 @@
+{
+  "name": "metrologen",
+  "version": "1.0.0",
+  "description": "bot that queries weather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnus Krangnes",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  },
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.14.1",
+    "node-fetch": "^2.7.0",
+    "undici": "^5.27.2",
+    "utf-8-validate": "^6.0.3",
+    "zlib-sync": "^0.1.9"
+  }
+}
